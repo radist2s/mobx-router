@@ -1,8 +1,9 @@
 {
   "name": "mobx-router",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A simple router for MobX",
-  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "main": "dist/index-node.js",
   "files": [
     "dist/",
     "src/",

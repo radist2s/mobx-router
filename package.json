@@ -1,6 +1,6 @@
 {
-  "name": "mobx-router",
-  "version": "0.0.10",
+  "name": "@radist2s/mobx-router",
+  "version": "0.0.13",
   "description": "A simple router for MobX",
   "browser": "dist/index.js",
   "main": "dist/index-node.js",
@@ -20,29 +20,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kitze/mobx-router.git"
+    "url": "git+https://github.com/radist2s/mobx-router.git"
   },
   "keywords": [
-    "kitze",
     "mobx",
     "router",
     "react"
   ],
-  "author": "Kitze <kristijan.mkd@gmail.com> (http://kitze.rocks/)",
+  "author": "Radist2s <radist2s@gmail.com> (http://tagart.ru/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kitze/mobx-router/issues"
+    "url": "https://github.com/radist2s/mobx-router/issues"
   },
-  "homepage": "https://github.com/kitze/mobx-router#readme",
+  "homepage": "https://github.com/radist2s/mobx-router#readme",
   "dependencies": {
     "babel-runtime": "^6.11.6",
-    "director": "1.2.8",
+    "director": "git+https://github.com/kidloom/director.git",
     "query-string": "^5.0.1"
   },
   "peerDependencies": {
     "react": "16.x",
-    "mobx": "^3.x",
-    "mobx-react": "^4.x"
+    "mobx": "^4.2.x",
+    "mobx-react": "^5.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -60,8 +59,8 @@
     "husky": "^0.14.3",
     "jest": "^21.3.0-beta.14",
     "lint-staged": "^6.0.0",
-    "mobx": "3.4.1",
-    "mobx-react": "4.3.5",
+    "mobx": "^4.2.1",
+    "mobx-react": "^5.1.2",
     "prettier": "^1.7.4",
     "raf": "^3.4.0",
     "react": "^16.2.0",
@@ -81,5 +80,8 @@
       "prettier --print-width 80 --tab-width 4 --single-quote --write",
       "git add"
     ]
+  },
+  "directories": {
+    "test": "tests"
   }
 }
